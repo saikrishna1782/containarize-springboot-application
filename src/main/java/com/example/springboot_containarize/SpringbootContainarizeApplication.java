@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringbootContainarizeApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringbootContainarizeApplication.class, args);
-	}
-
+  public static void main(String[] args) {
+    SpringApplication.run(SpringbootContainarizeApplication.class, args);
+  }
 }
