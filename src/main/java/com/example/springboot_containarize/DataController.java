@@ -25,8 +25,8 @@ import java.util.*;
         // 3. PUT method - update data
         @PutMapping("/update")
         public String updateData(@RequestBody DataRequest request) {
-
-            return "Data for " + request.getName() + " updated successfully!";
+            System.out.println("Updating data for: " + request.getName());
+            return "Data for " + request.getName() + " updated successfully jebcjdwbjc!";
         }
 
         // 4. DELETE method - delete user by id
@@ -40,7 +40,7 @@ import java.util.*;
         @PatchMapping("/patch")
         public String patchData(@RequestBody Map<String, Object> updates) {
             System.out.println("Patch request received: " + updates);
-            return "Partial update applied cidsghcjhdwkhiheknd: " + updates;
+            return "Partial update applied jdbcjbdsjbdj: " + updates;
         }
     }
 
