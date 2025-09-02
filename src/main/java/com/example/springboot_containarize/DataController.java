@@ -25,14 +25,14 @@ import java.util.*;
         // 3. PUT method - update data
         @PutMapping("/update")
         public String updateData(@RequestBody DataRequest request) {
-            System.out.println("Updating data for: " + request.getName());
+
             return "Data for " + request.getName() + " updated successfully!";
         }
 
         // 4. DELETE method - delete user by id
         @DeleteMapping("/delete/{id}")
         public String deleteUser(@PathVariable int id) {
-            System.out.println("Deleting user with ID: " + id);
+            System.out.println("Deleting user with ID udivdhwkfcwdknf: " + id);
             return "User with ID " + id + " deleted successfully!";
         }
 
@@ -40,7 +40,7 @@ import java.util.*;
         @PatchMapping("/patch")
         public String patchData(@RequestBody Map<String, Object> updates) {
             System.out.println("Patch request received: " + updates);
-            return "Partial update applied: " + updates;
+            return "Partial update applied cidsghcjhdwkhiheknd: " + updates;
         }
     }
 
