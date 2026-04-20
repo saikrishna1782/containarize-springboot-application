@@ -41,7 +41,7 @@ import java.util.*;
         public String patchData(@RequestBody Map<String, Object> updates) {
             System.out.println("Patch request received: " + updates);
             return "Partial update applied cidsghcjhdwkhiheknd: " + updates;
-            //added a line in dev branch
+            //added a line in dev2 branch
         }
     }
 
